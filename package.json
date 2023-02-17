@@ -1,0 +1,26 @@
+{
+  "name": "yetanothersermonhost-rss-reader",
+  "version": "1.0.0",
+  "description": "Read RSS feeds from Yet Another Sermon Host to add API functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "@extractus/feed-extractor": "^6.2.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
