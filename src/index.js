@@ -11,6 +11,8 @@ const express = require('express')
 const cors = require('cors')
 const config = require('../config.json')
 
+// Utilities
+const log = require('./utils/log')
 
 // Initialize Express
 const app = express()
